@@ -1,0 +1,38 @@
+.av-c{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.chatContent .time{
+    
+    font-size: 10px;
+    width: 100%;
+   text-align: left;
+}
+.av-c img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.chatContent{
+    line-height: 20px;
+    display: flex;
+    gap:5px;
+    flex-direction: row;
+}
+.chatContent2 .time{
+    font-size: 10px;
+    width: 100%;
+   text-align: left;
+}
+.chatContent .content{
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    word-break: break-all;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+}

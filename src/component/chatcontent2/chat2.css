@@ -1,0 +1,35 @@
+.av-c2{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+.av-c2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.chatContent2{
+    
+    line-height: 20px;
+    display: flex;
+    gap:5px;
+    flex-direction: row-reverse;
+}
+.chatContent2 .time{
+    
+    font-size: 10px;
+    width: 100%;
+   text-align: right;
+}
+.chatContent2 .content2{
+    white-space: pre;
+    height: auto;
+    width: auto;
+    max-width: 200px;
+    word-break: break-all;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: white;
+}
